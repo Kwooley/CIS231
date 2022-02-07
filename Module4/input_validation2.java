@@ -9,7 +9,7 @@ public class input_validation2 {
 			if (user == 'q') {
 				System.out.println("You entered q. The loop stopped");
 				break;
-			} else { // else can be elimated.
+			} else { // else can be eliminated.
 				System.out.format("Your input is %c. Press 'q' to stop \n", user);
 			}
 		}
