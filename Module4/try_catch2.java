@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class while_ex7 {
+public class try_catch2 {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
 		int user_num;
