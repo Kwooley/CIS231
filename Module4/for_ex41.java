@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class for_ex4 {
+public class for_ex41 {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
 		final int N = 5;
