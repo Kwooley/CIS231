@@ -9,13 +9,13 @@ class Outer2 {
 
 		void printXY() {
 			x = y = 100;
-			System.out.println("Outer x is " + x);
-			System.out.println("Outer x is " + y);
+			System.out.println("Outer2 x is " + x);
+			System.out.println("Outer2 x is " + y);
 		}
 
 		void printXY2() {
-			System.out.println("Outer x is " + x);
-			System.out.println("Outer x is " + y);
+			System.out.println("Outer2 x is " + x);
+			System.out.println("Outer2 x is " + y);
 		}
 	}
 
@@ -23,11 +23,6 @@ class Outer2 {
 
 public class static_class2 {
 	public static void main(String[] args) {
-
-		// Outer out = new Outer();
-		// Outer.Inner in = out.new Inner();
-
-		// Outer.Inner in2 = new Outer().new Inner();
 
 		Outer2.Inner2 in = new Outer2.Inner2();
 
