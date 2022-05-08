@@ -11,6 +11,10 @@ class Person {
 		return "Name\t" + name + "\tDOB\t" + dob + "\t";
 	}
 
+	void printName() {
+		System.out.println("Class person " + name);
+	}
+
 }
 
 class Student extends Person {
@@ -28,18 +32,18 @@ class Student extends Person {
 		str += "ID " + Integer.toString(sid) + "\tCredits\t" + Integer.toString(credits);
 		return str;
 	}
+
+	void printName() {
+		System.out.println("Class Student\t " + name + " SID " + sid);
+	}
 }
 
-public class Inherit1 {
-
+public class polymorphism1 {
 	public static void main(String[] args) {
+		Person p;
 
-		Person p1 = new Person("John", "Jan/01/2000");
-
-		System.out.println(p1);
-
-		Student p2 = new Student("Kim", "Dec/31/2022", 1001, 30);
-		System.out.println(p2);
+		p = new Student("John", "May/01/2022", 1001, 10);
+		p.printName();
 	}
 
 }
